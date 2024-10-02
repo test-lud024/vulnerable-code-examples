@@ -6,6 +6,9 @@ on:
       - 'LICENSE'
       - 'docs/**'
 
+permissions: 
+  pull-requests: write
+  
 jobs:
   dependency-review:
     runs-on: ubuntu-latest
